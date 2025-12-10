@@ -105,7 +105,6 @@ GLOBAL-COUNTRY-DASHBOARD-GROUP/
 Open:
 
 client/script.js
-```
 
 Add:
 
