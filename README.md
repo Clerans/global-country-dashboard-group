@@ -115,6 +115,7 @@ const WEATHER_API_KEY = "YOUR_OPEN_WEATHERMAP_API_KEY";
 Ensure:
 
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=${WEATHER_API_KEY}`)
+```
 ### 2️⃣Install Server Dependencies
 ```sh
 cd server
