@@ -145,6 +145,8 @@ Open the file below using Live Server:
 client/index.html
 
 
+---
+
 ## 🔑 Authentication Headers
 
 
