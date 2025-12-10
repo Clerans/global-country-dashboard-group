@@ -51,11 +51,11 @@ MongoDB Atlas Database
 
 ## 📷 Screenshots
 
-Add the screenshots inside this folder path:
+screenshots inside this folder path:
 ```
-client/screenshots/
-    home-ui.png
-    results-ui.jpeg
+Screenshots/
+  Home-UI.PNG
+  Results-UI.PNG
 ```
 
 ---
