@@ -109,7 +109,8 @@ client/script.js
 
 Add:
 
-```javascript
+```
+javascript
 const WEATHER_API_KEY = "YOUR_OPEN_WEATHERMAP_API_KEY";
 
 ```
