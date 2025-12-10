@@ -63,31 +63,36 @@ Screenshots/
 ## 📂 Folder Structure
 
 ```
-SOC-mini-project/
+GLOBAL-COUNTRY-DASHBOARD-GROUP/
 │
 ├── client/
 │   ├── index.html
-│   ├── style.css
 │   ├── script.js
-│   └── screenshots/
-│       ├── home-ui.png
-│       └── results-ui.jpeg
+│   └── style.css
+│
+├── Screenshots/
+│   ├── Home-UI.PNG
+│   └── Results-UI.PNG
 │
 ├── server/
-│   ├── server.js
-│   ├── routes/
-│   │   └── api.js
-│   ├── middleware/
-│   │   └── auth.js
 │   ├── controllers/
 │   │   └── saveController.js
-│   └── models/
-│       └── CountryInsight.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── models/
+│   │   └── CountryInsight.js
+│   ├── routes/
+│   │   └── api.js
+│   ├── node_modules/
+│   ├── server.js
+│   ├── .env
+│   ├── .gitignore
+│   ├── package.json
+│   └── package-lock.json
 │
-├── package.json
-├── package-lock.json
 ├── .gitignore
 └── README.md
+
 ```
 
 ---
