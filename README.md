@@ -120,6 +120,21 @@ Open the file below using Live Server:
 
 client/index.html
 
+### 5️⃣ Add Your OpenWeatherMap API Key
+Edit:
+```
+client/script.js
+```
+
+Add:
+```javascript
+const WEATHER_API_KEY = "YOUR_OPEN_WEATHERMAP_API_KEY";
+```
+
+Ensure your fetch call includes:
+```javascript
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=${WEATHER_API_KEY}`)
+```
 
 ---
 
