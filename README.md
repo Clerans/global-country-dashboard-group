@@ -170,7 +170,7 @@ x-api-key: SL_PROJECT_2025_SOC
 
 | Name | Role |
 |------|------|
-| Michael Clerans | Team Lead / Full Stack Developer |
+| Michael Clerans | Team Lead |
 | AVSanju | Contributor |
 | Sivabalan Jineshini | Contributor |
 | Dhanushan Yogamoorthy | Contributor |
