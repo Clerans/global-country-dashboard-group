@@ -135,6 +135,7 @@ GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
 ### 4️⃣  Start Backend Server
 ```sh
 npm start
+```
 
 
 ### 5️⃣ Run UI
