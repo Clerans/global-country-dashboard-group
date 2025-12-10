@@ -4,7 +4,7 @@ console.log("SCRIPT VERSION 4 LOADED");
 
 // CONFIG - fill these client-side values before running
 const SERVER_BASE = 'http://localhost:5000';        // server root
-const OPENWEATHERMAP_KEY = '93b9148147be0712dd20773507e99af6'; // get from openweathermap.org
+const OPENWEATHERMAP_KEY = 'add the open weather app api key'; // get from openweathermap.org
 const APP_API_KEY = 'SL_PROJECT_2025_SOC';  // must match server .env API_KEY
 const GOOGLE_CLIENT_ID = '160639232948-bngjouv4lh8oduc6e8m2g35uot7skjch.apps.googleusercontent.com';
 console.log("USING CLIENT ID:", GOOGLE_CLIENT_ID);
