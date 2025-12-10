@@ -97,15 +97,32 @@ GLOBAL-COUNTRY-DASHBOARD-GROUP/
 
 ---
 
+
 ## 🔧 Setup & Installation
 
-### 1️⃣ Install Server Dependencies
+### 1️⃣ Add OpenWeatherMap API Key
+
+Open:
+
+client/script.js
+```
+
+Add:
+
+```javascript
+const WEATHER_API_KEY = "YOUR_OPEN_WEATHERMAP_API_KEY";
+
+---
+Ensure:
+
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=${WEATHER_API_KEY}`)
+### 2️⃣Install Server Dependencies
 ```sh
 cd server
 npm install
 ```
 
-### 2️⃣ Setup Environment Variables
+### 3️⃣ Setup Environment Variables
 Create a `.env` file inside server/
 
 ```
@@ -115,33 +132,16 @@ API_KEY=SL_PROJECT_2025_SOC
 GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
 ```
 
-### 3️⃣ Start Backend Server
+### 4️⃣  Start Backend Server
 ```sh
 npm start
 
 
-### 4️⃣ Run UI
+### 5️⃣ Run UI
 Open the file below using Live Server:
 
 client/index.html
 
-### 5️⃣ Add Your OpenWeatherMap API Key
-Edit:
-```
-client/script.js
-```
-
-Add:
-```javascript
-const WEATHER_API_KEY = "YOUR_OPEN_WEATHERMAP_API_KEY";
-```
-
-Ensure your fetch call includes:
-```javascript
-fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=${WEATHER_API_KEY}`)
-```
-
----
 
 ## 🔑 Authentication Headers
 
