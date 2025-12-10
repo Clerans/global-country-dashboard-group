@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Global Insights Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Google Identity Services -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+  <div class="app-wrapper">
+    
+    <!-- Header Section -->
+    <header class="main-header">
+      <div class="logo-area">
+        <div class="logo-icon"><i class="fa-solid fa-earth-americas"></i></div>
+        <h1>Global Country Insights Dashboard</h1>
+      </div>
+      <div id="gsi-button" class="auth-button"></div>
+    </header>
+
+    <main class="container">
+      
+      <!-- Search Section -->
+      <section class="search-panel">
+        <div class="input-group">
+          <input id="countryInput" type="text" placeholder="Enter country name (e.g., Japan)..." autocomplete="off" />
+          <button id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i> Search
+          </button>
+        </div>
+        <button id="saveBtn" class="btn-secondary" disabled>
+          <i class="fa-solid fa-cloud-arrow-up"></i> Save Result
+        </button>
+      </section>
+
+      <!-- Status Bar -->
+      <div id="status" class="status-bar">Ready to explore.</div>
+
+      <!-- Dashboard Grid -->
+      <div id="dashboard" class="dashboard-grid">
+        <!-- Card 1: Country Info -->
+        <article class="card main-card">
+          <div class="card-header">
+            <span class="card-icon"><i class="fa-solid fa-flag"></i></span>
+            <span>General Info</span>
+          </div>
+          <div id="countryInfo" class="card-body">
+            <div class="empty-state">Search for a country to view details.</div>
+          </div>
+        </article>
+
+        <!-- Card 2: Weather -->
+        <article class="card weather-card">
+          <div class="card-header">
+            <span class="card-icon"><i class="fa-solid fa-cloud-sun"></i></span>
+            <span>Live Weather</span>
+          </div>
+          <div id="weatherInfo" class="card-body">
+            <div class="empty-state">--</div>
+          </div>
+        </article>
+
+        <!-- Card 3: COVID/Health -->
+        <article class="card health-card">
+          <div class="card-header">
+            <span class="card-icon"><i class="fa-solid fa-virus-covid"></i></span>
+            <span>Health Data</span>
+          </div>
+          <div id="covidInfo" class="card-body">
+            <div class="empty-state">--</div>
+          </div>
+        </article>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Your existing script -->
+  <script src="script.js"></script>
+</body>
+</html>
